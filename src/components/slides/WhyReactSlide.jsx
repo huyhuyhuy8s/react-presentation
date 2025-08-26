@@ -6,7 +6,7 @@ const WhyReactSlide = () => {
       <h1>
         Why Choose <strong>React</strong>?
       </h1>
-      <div className="container why-react-container">
+      <div className="split-container why-react-container">
         <table>
           <tbody>
             <tr>
@@ -62,6 +62,19 @@ const WhyReactSlide = () => {
             </tr>
           </tbody>
         </table>
+        <div className="container" style={{ flexDirection: "column" }}>
+          <img
+            src="/demonstrations/survey.png"
+            alt=""
+            style={{ maxHeight: "50vh" }}
+          />
+          <h6>
+            <strong>Web frameworks and web technologies</strong> survey in{" "}
+            <a href="https://survey.stackoverflow.co/2025/technology#1-web-frameworks-and-technologies">
+              StackOverFlow 2025 Developer Survey
+            </a>
+          </h6>
+        </div>
       </div>
     </>
   );

@@ -16,18 +16,21 @@ const CoreIdea2 = () => {
         Core Idea #2: <strong>JSX - HTML in JavaScript</strong>
       </h1>
       <h4>JSX lets you write HTML-like code directly in your JavaScript.</h4>
-      <div className="split-container core-idea-2">
-        <CodeMirror
-          value={code1}
-          extensions={[javascript({ jsx: true })]}
-          theme={vscodeDark}
-        />
-        <CodeMirror
-          value={code2}
-          extensions={[javascript({ jsx: true })]}
-          theme={vscodeDark}
-        />
+      <div className="container">
+        <div className="split-container core-idea-2">
+          <CodeMirror
+            value={code1}
+            extensions={[javascript({ jsx: true })]}
+            theme={vscodeDark}
+          />
+          <CodeMirror
+            value={code2}
+            extensions={[javascript({ jsx: true })]}
+            theme={vscodeDark}
+          />
+        </div>
       </div>
+      <img src="/demonstrations/jsx.png" alt="" style={{ maxWidth: "50vw" }} />
     </>
   );
 };

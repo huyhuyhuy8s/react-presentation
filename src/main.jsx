@@ -16,6 +16,7 @@ import VirtualDOMSlide from "./components/slides/VirtualDOMSlide";
 import WhyReactSlide from "./components/slides/WhyReactSlide";
 import ThankYouSlide from "./components/slides/ThankYouSlide";
 import QuizSlide from "./components/slides/QuizSlide";
+import CoreIdea15 from "./components/slides/CoreIdea15.jsx";
 
 // Create an array of your slide components in order
 const slides = [
@@ -24,6 +25,7 @@ const slides = [
   <ProblemSlide />,
   <ReactSlide />,
   <CoreIdea1 />,
+  <CoreIdea15 />,
   <CoreIdea2 />,
   <CoreIdea3 />,
   <CounterSlide />,

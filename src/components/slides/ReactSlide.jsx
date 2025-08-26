@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import reactLogo from "../../assets/react.svg";
-import "../../styles/components/_react.scss";
 
 const ReactSlide = () => {
   const [visibility, setVisibility] = useState(false);
