@@ -1,0 +1,12 @@
+.icon-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+
+  div {
+    img {
+      height: 10vh;
+      width: 100%;
+    }
+  }
+}

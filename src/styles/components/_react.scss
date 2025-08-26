@@ -1,0 +1,25 @@
+.react-slide {
+  flex-direction: column;
+  .react-logo {
+    height: 10vh;
+  }
+  img {
+    height: 100%;
+    width: 30vw;
+  }
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .react-logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}

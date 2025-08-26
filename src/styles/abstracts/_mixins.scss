@@ -1,0 +1,88 @@
+// Typography mixins using the Perfect Fourth scale
+
+@mixin text-xs {
+  font-size: $font-size-xs;
+  line-height: $line-height-normal;
+}
+
+@mixin text-sm {
+  font-size: $font-size-sm;
+  line-height: $line-height-normal;
+}
+
+@mixin text-base {
+  font-size: $font-size-md;
+  line-height: $line-height-normal;
+}
+
+@mixin text-lg {
+  font-size: $font-size-lg;
+  line-height: $line-height-tight;
+}
+
+@mixin text-xl {
+  font-size: $font-size-xl;
+  line-height: $line-height-tight;
+}
+
+@mixin text-2xl {
+  font-size: $font-size-2xl;
+  line-height: $line-height-tight;
+}
+
+@mixin text-3xl {
+  font-size: $font-size-3xl;
+  line-height: $line-height-tight;
+}
+
+// Heading mixins
+@mixin heading-1 {
+  font-size: $font-size-h1;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  letter-spacing: $letter-spacing-tight;
+}
+
+@mixin heading-2 {
+  font-size: $font-size-h2;
+  font-weight: $font-weight-bold;
+  line-height: $line-height-tight;
+  letter-spacing: $letter-spacing-tight;
+}
+
+@mixin heading-3 {
+  font-size: $font-size-h3;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+}
+
+@mixin heading-4 {
+  font-size: $font-size-h4;
+  font-weight: $font-weight-semibold;
+  line-height: $line-height-tight;
+}
+
+@mixin heading-5 {
+  font-size: $font-size-h5;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-normal;
+}
+
+@mixin heading-6 {
+  font-size: $font-size-h6;
+  font-weight: $font-weight-medium;
+  line-height: $line-height-normal;
+}
+
+@mixin body-text {
+  font-size: $font-size-body;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-normal;
+}
+
+@mixin caption-text {
+  font-size: $font-size-caption;
+  font-weight: $font-weight-normal;
+  line-height: $line-height-normal;
+  color: lighten($text-color, 20%);
+}

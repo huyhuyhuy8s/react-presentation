@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as *;
+
+.navigation {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1em 0;
+}
+
+.navigation button {
+  padding: 0em 1em;
+  margin: 0 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: $background-color;
+  color: $accent-color;
+  border: none;
+  border-radius: 5px;
+}

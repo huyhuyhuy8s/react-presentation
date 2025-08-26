@@ -1,0 +1,13 @@
+.core-idea-3 {
+  .component-1,
+  .component-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 20vw;
+  }
+}
+.state-props-img {
+  height: 100%;
+  width: 40vw;
+}
